@@ -14,9 +14,6 @@
             "authors": ["Seth Shostak, SETI Institute"]
         }
     ],
-    "video": {
-        "url": "http://placehold.it/300x250?text=Kozmos+Video+TU1-001",
-        "description": "Kozmos Video"
-    },
+    "video": null,
     "other": "http://www.space.com/32422-seti-search-alien-life-red-dwarfs.html"
 }

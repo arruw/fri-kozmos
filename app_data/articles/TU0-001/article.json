@@ -10,15 +10,12 @@
     "images": [
         {
             "url": "http://www.space.com/images/i/000/053/622/original/red-dwarf-exoplanet-conception.jpg?interpolation=lanczos-none&downsize=*:1400",
-            "description": "Artist's impression of an exoplanet transiting a red-dwarf star. - See more at: http://www.space.com/32089-intelligent-alien-life-search-earth-transit-zone.html#sthash.6SQgT3YB.dpuf",
+            "description": "Artist's impression of an exoplanet transiting a red-dwarf star.",
             "authors": [
                 "ESO/L. Calçada"
             ]
         }
     ],
-    "video": {
-        "url": "http://placehold.it/300x250?text=Kozmos+Video+TU0-001",
-        "description": "Kozmos Video"
-    },
+    "video": null,
     "other": "http://www.space.com/32089-intelligent-alien-life-search-earth-transit-zone.html"
 }

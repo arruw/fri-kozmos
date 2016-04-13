@@ -1,22 +1,19 @@
 {
     "id": "TU0-000",
-    "title": "Life's Building Blocks Form In Replicated Deep Sea Vents ",
-    "description": "Chimney-like mineral structures on the seafloor could have helped create the RNA molecules that gave rise to life on Earth.",
+    "title": "Microbial Mats Offer Clues to Life on Early Earth",
+    "description": "Mysterious branch-like formations in clusters of rock show what microbial life once looked like.",
     "authors": [
         "Charles Q. Choi"
     ],
     "date": "2016-04-11T12:17:00.000Z",
-    "content": "Scientists think Earth was born roughly 4.54 billion years ago. Life on Earth may be nearly that old with recent findings suggesting that life might have emerged only about 440 million years after the planet formed.</b>However, it remains a mystery how life might have first arisen. The main building blocks of life now are DNA, which can store genetic data, and proteins, which include enzymes that can direct chemical reactions. However, DNA requires proteins in order to form, and proteins need DNA to form, raising the chicken-and-egg question of how protein and DNA could have formed without each other.",
+    "content": "<p>Ancient clusters of rock that preserve some of the oldest microbes on Earth occasionally possess mysterious branch-like formations. Now, scientists think they know what might have caused this enigmatic branching — changes in microbial activity in the shallow lakes and seas where life first evolved.</p><p>These findings, published in the July issue of the journal Geobiology, could help researchers decipher potential signs of primitive life on distant planets, scientists said.</p><p>\"Most of the history of life on Earth was dominated by microbial life, and if we want to anchor our understanding of microbial evolution to this history of life we need to look at what information we can pull out of the sedimentary record,\" said study lead author Tyler Mackey, a geo-biologist at the University of California, Davis.</p>",
     "images": [
         {
-            "url": "http://www.space.com/images/i/000/054/339/original/vents.jpg?interpolation=lanczos-none&downsize=*:1400",
-            "description": "Alkaline hydrothermal vents may have played a role in the origin of life.",
-            "authors": ["NOAA"]
+            "url": "http://www.space.com/images/i/000/054/335/original/stromatolite-lake-joyce.jpg?interpolation=lanczos-none&downsize=*:1400",
+            "description": "This is a stromatolite with well-developed branches from about 22 meters in Lake Joyce",
+            "authors": []
         }
     ],
-    "video": {
-        "url": "http://placehold.it/300x250?text=Kozmos+Video+TU0-000",
-        "description": "Kozmos Video"
-    },
-    "other": "http://www.space.com/32379-life-building-blocks-deep-sea-vents.html"
+    "video": null,
+    "other": "http://www.space.com/32377-microbes-give-clues-about-ancient-life.html"
 }

@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css">
     <link rel="stylesheet/less" href="./index.less" />
+    <link rel="stylesheet/less" href="./directives/articleTile.less" />
 </head>
 
 <body>
-
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -29,7 +29,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#/">Home</a></li>
+                    
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#/about">About</a></li>
@@ -38,16 +38,13 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div>
         <ng-view/>
     </div>
 
     <footer class="footer footer-default">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">Project Kozmos 2016</div>
-                <div class="col-md-6 text-right">designed by Černigoj Ž., Mav M. and Biljana B.</div>
-            </div>
+        <div class="container text-right">
+            Project Kozmos 2016
         </div>
     </footer>
 
@@ -57,7 +54,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-resource.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+    <!-- BOOTSTRAP: 4.0.0-alpha -->
     <script src="./index.js"></script>
     <script src="./views/home/home.js"></script>
     <script src="./views/article/article.js"></script>

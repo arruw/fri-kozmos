@@ -1,0 +1,39 @@
+div.article-tile {
+    margin: 15px;
+    padding: 5px;
+    //border: 1px solid black;
+    
+    img.article-tile-image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+// Bootstrap xs
+@media(max-width:768px) {
+    div.article-tile {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+        .col-xs-6 {
+            margin: 0px;
+            padding: 0px 10px 0px 0px;
+        }
+        
+        img.article-tile-image {
+            margin: 0px;
+            padding-right: 0px;
+        }
+    }
+}
+
+// Custom
+@media(max-width:500px) {
+    div.article-tile {
+        p.article-tile-description, p.article-tile-more{
+            display: none;
+        }
+    }
+}
