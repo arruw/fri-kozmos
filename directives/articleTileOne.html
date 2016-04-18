@@ -1,8 +1,7 @@
 <div id="{{article.id}}" class="article-tile">
     <a href="#/article/{{article.id}}">
         <div class="article-video-frame embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}">
-            </iframe>
+            <img class="article-tile-image img-responsive center-block" ng-src="{{article.images[0].url}}" />
         </div>
     </a>
 </div>

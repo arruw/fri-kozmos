@@ -1,21 +1,41 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-6">
-            <div class="tu0">
-                <h2 class="tu0 themeTitle">Interactive video instalations</h2>
-                <div ng-repeat="article in tu0" class="tu0">
-                    <div article-tile></div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-md-6">
-            <div class="tu1">
-                <h2 class="tu1 themeTitle">Thematic research</h2>
-                <div ng-repeat="article in tu1" class="tu1">
-                    <div article-tile></div>
-                </div>
-            </div>
+        <div ng-repeat="article in tu0" class="tu0 col-lg-4 col-md-4">
+            <div article-tile-zero></div>
         </div>
     </div>
 </div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div ng-repeat="article in tu1" class="tu1">
+            <div article-tile-one></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--<div class="container">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-6">-->
+            <!--<div class="tu0">-->
+                <!--<h2 class="tu0 themeTitle">Interactive video instalations</h2>-->
+                <!--<div ng-repeat="article in tu0" class="tu0">-->
+                    <!--<div article-tile></div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        <!--</div>-->
+        <!--<div class="col-md-6">-->
+            <!--<div class="tu1">-->
+                <!--<h2 class="tu1 themeTitle">Thematic research</h2>-->
+                <!--<div ng-repeat="article in tu1" class="tu1">-->
+                    <!--<div article-tile></div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->

@@ -83,3 +83,15 @@ kozmos.directive('articleTile', [function () {
         templateUrl: './directives/articleTile.html',
     }
 }]);
+
+kozmos.directive('articleTileZero', [function () {
+    return {
+        templateUrl: './directives/articleTileZero.html',
+    }
+}]);
+
+kozmos.directive('articleTileOne', [function () {
+    return {
+        templateUrl: './directives/articleTileOne.html',
+    }
+}]);
