@@ -1,24 +1,8 @@
 <div id="{{article.id}}" class="article-tile">
     <a href="#/article/{{article.id}}">
         <div class="article-video-frame embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}">
+            <iframe class="embed-responsive-item youtube-player" src="{{article.video.url | toTrustedResourceUrl}}">
             </iframe>
         </div>
     </a>
 </div>
-
-
-<!--<div id="{{article.id}}" class="article-tile row">-->
-<!--<div class="col-xs-6 article-tile-left">-->
-<!--<img class="article-tile-image img-responsive center-block" ng-src="{{article.images[0].url}}" />-->
-<!--</div>-->
-<!--<div class="col-xs-6 article-tile-right">-->
-<!--<h4 class="article-tile-title">-->
-<!--<a href="#/article/{{article.id}}" ng-bind-html="article.title | toTrustedHtml"></a>-->
-<!--</h4>-->
-<!--<p class="article-tile-description text-justify" ng-bind-html="article.description | ellipsis:300 | toTrustedHtml"></p>-->
-<!--<p class="article-tile-more">-->
-<!--<a href="#/article/{{article.id}}"><b>Read more <span class="glyphicon glyphicon-chevron-right"></span></a>-->
-<!--</p>-->
-<!--</div>-->
-<!--</div>-->
