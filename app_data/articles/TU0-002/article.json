@@ -15,7 +15,7 @@
     }
   ],
   "video": {
-    "url": "https://www.youtube.com/embed/z1Pqqf_6J9w?autoplay=1",
+    "url": "http://localhost/app_data/videos/vid.mp4",
     "id": "z1Pqqf_6J9w",
     "description": "NSF Graduate Fellow Alex Teachey of the Cool Worlds Lab explains our new paper which devises a method to cloak entire planets from extraterrestrial civilizations! As always, ask us your questions in the comments below and we'll get back to you!",
     "authors": ["Cool Worlds"]

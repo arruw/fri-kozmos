@@ -1,8 +1,9 @@
-<div id="{{article.id}}" class="article-tile">
+<div id="{{article.id}}" class="article-tile-one">
     <a href="#/article/{{article.id}}">
-        <div class="article-video-frame embed-responsive embed-responsive-4by3">
-            <img class="article-tile-image img-responsive center-block" ng-src="{{article.images[0].url}}" />
+        <div class="title">
+            <h3>{{article.title}}</h2>
+            <p class="text-justify visible-md visible-sm">{{article.description}}<p>
         </div>
-        <h2 class="tu0Title">{{article.title}}</h2>
+        <img class="article-tile-image img-responsive center-block image" ng-src="{{article.images[0].url}}" />
     </a>
 </div>

@@ -1,9 +1,10 @@
-<div id="{{article.id}}" class="article-tile">
+<div id="{{article.id}}" class="article-tile-zero">
     <a href="#/article/{{article.id}}">
-        <h2 class="tu0Title">{{article.title}}</h2>
-        <div class="article-video-frame embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item youtube-player" src="{{article.video.url | toTrustedResourceUrl}}">
-            </iframe>
-        </div>
+        <!--<h2 class="title">{{article.title}}</h2>-->
+        <div class="title">
+            <h3>{{article.title}}</h2>
+            <p class="text-justify visible-md visible-sm">{{article.description}}<p>
+         </div>
+        <video class="video" src="{{article.video.url}}" autoplay controls muted></video>
     </a>
 </div>

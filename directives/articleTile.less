@@ -1,100 +1,27 @@
-div.article-tile {
-    //margin: 15px;
-    //padding: 5px;
-    //border: 1px solid black;
+.article-tile-zero {
+    height: 100%;
+    position: relative;
     
-    img.article-tile-image {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-}
-
-div.tu0 {
-    padding: 0px;
-    margin-bottom: 100px;
-    background: transparent;
-}
-
-
-div.tu1 {
-    padding: 0px;
-    margin-bottom: 100px;
-    width: 20%;
-    float: left;
-}
-
-.tu0{
-    color: white;
-    text-decoration: none;
-}
-
-
-.tu0:hover{
-    color: rgba(30, 30, 30, 1);
-    background-color: rgba(248, 248, 248, 1);
-    text-decoration: none;
-}
-
-.tu1{
-    color: white;
-    text-decoration: none;
-}
-
-.tu1:hover{
-    color: rgba(30, 30, 30, 1);
-    background-color: rgba(248, 248, 248, 1);
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color:white;
-}
-a:hover {
-    text-decoration: none;
-    color: rgba(30, 30, 30, 1);
-    background-color: rgba(248, 248, 248, 1);
-}
-
-// Bootstrap xs
-@media(max-width:768px) {
-    div.article-tile {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        
-        .col-xs-6 {
-            margin: 0px;
-            padding: 0px 10px 0px 0px;
-        }
-        
-        img.article-tile-image {
-            margin: 0px;
-            padding-right: 0px;
-        }
-    }
-
-    div.tu1 {
-        padding: 0px;
-        margin-bottom: 100px;
+    .title {
+        position: absolute;
+        background-color: rgba(30, 30, 30, 0.90);
+        color: white;
+        top: 0px;
         width: 100%;
-        float: left;
+        margin: 0px;
+        padding: 10px;
+        h3 {
+            margin-top: 10px;
+        }
+        display: none;
+    }  
+    .video {
+        z-index: -1000;
+        width: 100%;
     }
-}
-
-// Custom
-@media(max-width:500px) {
-    div.article-tile {
-        p.article-tile-description, p.article-tile-more{
-            display: none;
+    &:hover {
+        .title {
+            display: block;
         }
     }
-
-    //div.tu1 {
-    //    padding: 0px;
-    //    margin-bottom: 100px;
-    //    width: 100%;
-    //    float: left;
-    //}
 }
