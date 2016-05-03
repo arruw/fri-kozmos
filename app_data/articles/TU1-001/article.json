@@ -9,9 +9,16 @@
     "content": "The search for intelligent aliens has expanded to include thousands of star systems very different from that of Earth.<br/>Scientists with the SETI (Search for Extraterrestrial Intelligence) Institute in Mountain View, California have just begun a two-year hunt for signs of alien civilizations around 20,000 red dwarfs — stars considerably smaller and dimmer than Earth's sun.<br/>Red dwarfs are promising targets for SETI scientists. They are the most common stars in the Milky Way, making up about 75 percent of the galaxy's stellar population. And because red dwarfs burn through their fuel slowly, they live a long time; on average, the Milky Way's red dwarfs are billions of years older than the sun, researchers said.",
     "images": [
         {
+            "id": "1",
             "url": "http://www.space.com/images/i/000/054/448/original/ata-new-2-560px-image.jpg",
             "description": "The SETI Institute's Allen Telescope Array in Hat Creek, California is now searching 20,000 red dwarf stars for signs of intelligent life.",
             "authors": ["Seth Shostak, SETI Institute"]
+        },
+        {
+            "id": "2",
+            "url": "http://www.space.com/images/i/000/054/335/original/stromatolite-lake-joyce.jpg?interpolation=lanczos-none&downsize=*:1400",
+            "description": "This is a stromatolite with well-developed branches from about 22 meters in Lake Joyce",
+            "authors": []
         }
     ],
     "video": null,
