@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-        <div ng-repeat="article in tu0" class="tu0 col-lg-4">
+        <div ng-repeat="article in tu0" class="col-lg-4">
             <div article-tile-zero></div>
         </div>
     </div>
@@ -9,7 +9,10 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div ng-repeat="article in tu1" class="tu1">
+        <!--<div ng-repeat="article in tu1" class="tu1 col-lg-2" ng-class="{'col-lg-offset-1': $index==0}">
+            <div article-tile-one></div>
+        </div>-->
+        <div ng-repeat="article in tu1" class="tu1 col-md-15"">
             <div article-tile-one></div>
         </div>
     </div>
