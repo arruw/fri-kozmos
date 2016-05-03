@@ -14,6 +14,10 @@ kozmos.config(['$routeProvider', function($routeProvider) {
            templateUrl: './views/about/about.html',
            controller: 'aboutCtrl' 
         }).
+        when('/new', {
+            templateUrl: './views/new/new.html',
+            controller: 'newCtrl'
+        }).
         otherwise({
            redirectTo: '/' 
         });
@@ -77,5 +81,17 @@ kozmos.filter('ellipsis', [function() {
 kozmos.directive('articleTile', [function () {
     return {
         templateUrl: './directives/articleTile.html',
+    }
+}]);
+
+kozmos.directive('articleTileZero', [function () {
+    return {
+        templateUrl: './directives/articleTileZero.html',
+    }
+}]);
+
+kozmos.directive('articleTileOne', [function () {
+    return {
+        templateUrl: './directives/articleTileOne.html',
     }
 }]);
