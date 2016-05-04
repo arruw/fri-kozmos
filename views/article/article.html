@@ -19,13 +19,13 @@
     <div id="media-content">
 
 
-        <div class="left" style="float: left; padding-top: 5%; width: 10%;">
+        <div class="left" style="float: left; padding-top: 5%; width: 10%;" ng-show="moreThan1">
             <div class="container-fluid">
                 <img ng-src="{{left}}" ng-click="prev()" style="width: 100%;"/>
             </div>
         </div>
 
-        <div class="right" style="float: right; padding-top: 5%; width: 10%;">
+        <div class="right" style="float: right; padding-top: 5%; width: 10%;" ng-show="moreThan1">
             <div class="container-fluid">
                 <img ng-src="{{right}}" ng-click="next()" style="width: 100%;"/>
             </div>
