@@ -1,40 +1,75 @@
 <div id="{{article.id}}" class="article">
-    
+
     <div class="container">
         <h1 class="article-title">
             <span ng-bind-html="article.title | toTrustedHtml"></span><br/>
             <small class="article-description text-justify" ng-bind-html="article.description | toTrustedHtml"></small>
         </h1>
-        
+
         <div class="article-info">
             Published on <span class="article-date">{{article.date | date }}</span> by
             <span class="article-authors">
                 <span ng-repeat="author in article.authors">
                     <span class="article-author">{{author}}</span>{{$last ? '.' : ( ($index == (article.authors.length - 2)) ? ' and ' : ', ' )}}
             </span>
-            </span> 
+            </span>
         </div>
     </div>
-    
-    <div class="article-video" ng-show="article.video.url">
-        <div class="container">
-            <div class="article-video-frame embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>
+
+    <div id="media-content">
+
+
+        <div class="left" style="float: left; padding-top: 5%; width: 10%;">
+            <div class="container-fluid">
+                <img ng-src="{{left}}" ng-click="prev()" style="width: 100%;"/>
             </div>
-            <div class="article-video-description text-justify" ng-bind-html="article.video.description | toTrustedHtml"></div>
         </div>
-    </div>
-    
-    <div class="article-featured-image" ng-hide="article.video.url">
-        <div class="container">
-            <img class="article-featured-image-frame img-responsive center-block" ng-src="{{article.images[0].url}}" />
-            <div class="article-featured-image-description text-justify" ng-bind-html="article.images[0].description | toTrustedHtml"></div>
+
+        <div class="right" style="float: right; padding-top: 5%; width: 10%;">
+            <div class="container-fluid">
+                <img ng-src="{{right}}" ng-click="next()" style="width: 100%;"/>
+            </div>
         </div>
+
+
+        <div class="article-video" id="{{article.video.id}}" ng-if="article.video.id == showID">
+
+            <div class="container">
+
+                <div class="article-video-frame embed-responsive embed-responsive-16by9">
+                    <!--<iframe class="embed-responsive-item"
+                            src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>-->
+                    <video class="video" ng-src="{{article.video.url}}" autoplay controls></video>
+                </div>
+
+                <div class="article-video-description text-justify"
+                     ng-bind-html="article.video.description | toTrustedHtml"></div>
+            </div>
+        </div>
+
+        <div ng-repeat="image in article.images" id="{{image.id}}" class="article-featured-image" ng-if="image.id == showID">
+
+            <div class="container">
+                <img class="article-featured-image-frame img-responsive center-block"
+                     ng-src="{{image.url}}"/>
+
+                <div class="article-featured-image-description text-justify"
+                     ng-bind-html="image.description | toTrustedHtml"></div>
+            </div>
+
+        </div>
+
     </div>
-    
+
     <div class="container article-containter">
         <div class="article-content text-justify" ng-bind-html="article.content | toTrustedHtml"></div>
     </div>
-    
+
     <div class="container container-bottom-fill"></div>
 </div>
+
+
+<script>
+
+
+</script>
