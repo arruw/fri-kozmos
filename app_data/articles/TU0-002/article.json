@@ -1,24 +1,22 @@
 {
-  "id": "TU0-002",
-  "title": "Mars Life Hunt: Could Basin Host Remains of an Ancient Biosphere?",
-  "description": "An enormous basin in the southern hemisphere of Mars might be the best place to search for signs of past and present Red Planet life, a new study suggests.",
-  "authors": [
-    "Nola Taylor Redd"
-  ],
-  "date": "April 1, 2016 07:44",
-  "content": "<p>The Argyre basin contains a wealth of ingredients thought necessary for the evolution of life, and should be a prime target for a series of future Mars missions, study team members said.<br />\"Argyre displays a collection of landscape features that are promising from an astrobiological point of view, including hydrothermal deposits, pingos [mounds of dirt-covered ice fed by water] or ancient glacier deposits,\" lead author Alberto Fairén, a visiting scientist at Cornell University in New York state and a researcher at Spain's Center of Astrobiology, told Space.com by email. [The Search for Life on Mars (A Photo Timeline)]<br />\"This large collection of special features all together in the same setting, accessible by a single mission, is what makes Argyre unique,\" he said.<br />The low elevation of the basin's floor would also be a plus for any landings that require parachutes, study team members said. (The longer descent in the basin would give spacecraft relatively more time to slow down before reaching the surface.)<h3>An ancient Martian biosphere?</h3>The Argyre impact basin lies at about 50 degrees south latitude. Sunlight is hard to come by during the winter months in locations so far from the equator, so long-term missions might need to rely on nuclear power, as NASA's Mars rover Curiosity does, researchers said.<br />A solar-powered mission could still conceivably work, just for relatively short periods. In 2008, for example, NASA's Phoenix lander operated near the Martian north pole for 157 Martian sols (the equivalent of 161 Earth days — one Martian sol lasts about 24 hours and 37 minutes). Despite the challenges, the potential scientific rewards make Argyre a compelling place to explore, study team members said. They suggested a multiple-mission approach, beginning with an orbiter combined with aerial platforms, followed by one or more rovers. These rovers could bear miniature landing science stations and autonomous drilling equipment that could search for signs of past or present Mars life.<br />\"I would like to have a true life-searching payload to inspect the astrobiologically promising features,\" Fairén said. \"Argyre could be safeguarding the latest remains of an ancient Martian biosphere.\"<br />Such a mission would require sterilizing landing craft as completely as possible, to minimize the chances that Earth microbes could set up shop on the Red Planet, study authors said. [The Boldest Mars Missions in History]<br /> - See more <a href=\"http://www.space.com/32440-mars-life-search-argyre-basin.html#sthash.cR1ZOTLn.dpuf\">here</a>.</p>",
-  "images": [
-    {
-      "url": "http://www.space.com/images/i/000/054/477/original/Argyre-basin-region.jpg?interpolation=lanczos-none&downsize=*:1400",
-      "description": "The Argyre basin region, a rim of rugged mountains surrounding a nearly circular expanse of lighter plains, is visible in the center-left portion of this image by NASA's Viking 1 orbiter.",
-      "authors": ["NASA/JPL/USGS"]
+    "id": "TU0-002",
+    "title": "'Laser Cloak' Could Hide Earth from Evil Aliens",
+    "description": "A simple laser beam could disrupt aliens' observations of Earth, making it look like there's nobody home on the third rock from the sun, a new study suggests.",
+    "authors": [
+        "Sarah Lewin"
+    ],
+    "date": "2016-04-11T12:17:00.000Z",
+    "content": "<p>David Kipping, an astronomer at Columbia University in New York, said he first considered this idea when he heard about the strangely dimming star that was detected recently by NASA's Kepler space telescope. Researchers speculated the signal could have come from an \"alien megastructure\" orbiting the star. That's a remote possibility, many scientists stressed; the star's strange signal likely has a natural cause. But the Kepler observations got Kipping thinking about ways humanity could alter the signals it sends into space — or hide them altogether from life-hunting aliens, who may have malicious intentions.</p><p>He and Columbia graduate student Alex Teachey concluded that it would be surprisingly easy to wipe out Earth's signal, distort it to look strange or even edit out the fingerprint of life — provided researchers knew the location of the snooping aliens. \"We essentially played the thought experiment that if we really had xenophobic tendencies and wanted to avoid the Earth being discovered (as Stephen Hawking and others have been warning about), could we hide the Earth from alien planet-hunters?\" Kipping said in an email.</p><h3>How to build a cloaking device</h3><p>The key to Kipping and Teachey's thinking lies in the way humans have identified most planets around other stars, a process called the transit method. This strategy, which has most famously been employed by the Kepler spacecraft, detects tiny dips in the brightness of stars, which can indicate an orbiting planet. The transit method could theoretically be used by alien civilizations to detect Earth, too. But there's a way to trip up such extraterrestrial searches, Kipping and Teachey said. \"To make it look like the planet is not there at all, you've got to get rid of that dip. You've got to fill in the missing starlight,\" Teachey said in an explanatory video.</p><p>Engineers could shine a very bright laser or collection of lasers toward a star suspected of hosting intelligent aliens during the time Earth was passing in front of the sun from the other planet's  perspective. Then, aliens making measurements wouldn't see any change in solar brightness. \"I started to think about lasers,\" Kipping told Space.com. \"Most people might have stopped there, because the sun emits so much light — how could you possibly produce a laser beam which could ever compete with the sun? But it turns out, when you actually run through the equations, it's really not that bad.\"</p><p>\"We could build this next week if we wanted to,\" Teachey added.</p><p>To alter Earth's signature as seen by an alien version of Kepler, a laser system would have to emit 30 megawatts of power for about 10 hours per year, coinciding with Earth's passing in front of the sun, the duo calculated.That equates to significantly less than the energy the International Space Station gathers in a year with its solar panels, Kipping said, or the energy used by about 70 homes over the course of a year. Such a laser system, either on Earth or in orbit, could charge its solar-powered batteries for most of the year and then release the high-powered blasts at just the right time, brightening when the sun's light would normally dim. While a laser of that intensity hasn't been built before, the researchers said, such a cloaking system could also use multiple smaller lasers, all shining in the same direction. The alien star would be so distant that such a difference would be indistinguishable. Laser beams are tightly focused, but at greater distances, the beams will have grown large enough to require less precise aim.</p>",
+    "images": [
+        {
+            "url": "http://www.space.com/images/i/000/054/459/original/VLT-Laser-Guide-Star.jpg",
+            "description": "A new paper describes how laser beams could disrupt measurements of Earth's orbit around the sun, potentially deceiving inquisitive aliens. Here, a 22W laser used for adaptive optics shines from the Very Large Telescope in Chile.",
+            "authors": ["ESO/G. Hüdepohl"]
+        }
+    ],
+    "video": {
+        "url": "http://localhost/app_data/videos/vid02.mp4",
+        "description": "NSF Graduate Fellow Alex Teachey of the Cool Worlds Lab explains our new paper which devises a method to cloak entire planets from extraterrestrial civilizations! As always, ask us your questions in the comments below and we'll get back to you!",
+        "authors": ["Cool Worlds"]
     }
-  ],
-  "video": {
-    "url": "http://localhost/app_data/videos/vid.mp4",
-    "id": "z1Pqqf_6J9w",
-    "description": "NSF Graduate Fellow Alex Teachey of the Cool Worlds Lab explains our new paper which devises a method to cloak entire planets from extraterrestrial civilizations! As always, ask us your questions in the comments below and we'll get back to you!",
-    "authors": ["Cool Worlds"]
-  },
-  "other": "http://www.space.com/32440-mars-life-search-argyre-basin.html"
 }

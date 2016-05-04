@@ -1,12 +1,12 @@
 {
     "id": "TU0-000",
-    "title": "Microbial Mats Offer Clues to Life on Early Earth",
-    "description": "Mysterious branch-like formations in clusters of rock show what microbial life once looked like.",
+    "title": "These 3 Alien Planets Around a Tiny, Cold Star Just Might Support Life",
+    "description": "Three potentially habitable Earth-size planets have been discovered orbiting a dim, cold nearby star that is barely larger than Jupiter, researchers say.",
     "authors": [
         "Charles Q. Choi"
     ],
-    "date": "2016-04-11T12:17:00.000Z",
-    "content": "<p>Ancient clusters of rock that preserve some of the oldest microbes on Earth occasionally possess mysterious branch-like formations. Now, scientists think they know what might have caused this enigmatic branching — changes in microbial activity in the shallow lakes and seas where life first evolved.</p><p>These findings, published in the July issue of the journal Geobiology, could help researchers decipher potential signs of primitive life on distant planets, scientists said.</p><p>\"Most of the history of life on Earth was dominated by microbial life, and if we want to anchor our understanding of microbial evolution to this history of life we need to look at what information we can pull out of the sedimentary record,\" said study lead author Tyler Mackey, a geo-biologist at the University of California, Davis.</p>",
+    "date": "2016-05-02T12:30:00.000Z",
+    "content": "<p>\"These kinds of tiny, cold stars may be the places we should first look for life elsewhere in the universe, because they may be the only places where we can detect life on distant Earth-sized planets with our current technology,\" study lead author Michaël Gillon, an astronomer at the University of Liège in Belgium, told Space.com.</p><p>Astronomers focused on a star originally named 2MASS J23062928-0502285 that was discovered using TRAPPIST (TRAnsiting Planets and PlanetesImals Small Telescope), a telescope in Chile. This dim cold red star, now known as TRAPPIST-1, is located in the constellation of Aquarius about 39 light-years from Earth. In comparison, Alpha Centauri, the nearest star system, is about 4.3 light-years from Earth.</p><p>TRAPPIST-1 is 2,000 times less bright than the sun, a bit less than half as warm as the sun, about one-twelfth the sun's mass, and less than one-eighth the sun's width, making it only slightly larger in diameter than Jupiter. TRAPPIST-1 is a type of star known as an ultracool dwarf that is very common in the Milky Way, making up about 15 percent of the stars near the sun.</p><p>Scientists spotted the three planets by observing TRAPPIST-1 dimming at regular intervals as the worlds crossed in front of it. This is the first time that distant planets, called exoplanets, have been found around an ultracool dwarf, the researchers said.</p><p>\"So far, the existence of such 'red worlds' orbiting ultracool dwarf stars was purely theoretical, but now we have not just one lonely planet around such a faint red star, but a complete system of three planets,\" study co-author Emmanuël Jehin, an astronomer at the University of Liège, said in a statement.</p><p>These three planets are each only about 10 percent larger in diameter than Earth. \"The kind of planets we've found are very exciting from the perspective of searching for life in the universe beyond Earth,\" study co-author Adam Burgasser at the University of California, San Diego, said in a statement.</p><p>The two innermost planets are about 60 to 90 times closer to their star than the Earth to the sun, with orbits only 1.5 and 2.4 days long, respectively. The orbit of the third planet is currently less certain, ranging between 4.5 and 73 days long. The small size of the star and its planets' orbits means \"the structure of this planetary system is much more similar in scale to the system of Jupiter's moons than to that of the solar system,\" Gillon said in the statement.</p>",
     "images": [
         {
             "url": "http://www.space.com/images/i/000/054/335/original/stromatolite-lake-joyce.jpg?interpolation=lanczos-none&downsize=*:1400",
@@ -20,10 +20,9 @@
         }
     ],
     "video": {
-        "url": "http://localhost/app_data/videos/vid.mp4", 
+        "url": "http://localhost/app_data/videos/vid00.mp4", 
         "id": "z1Pqqf_6J9w",
-        "description": "NSF Graduate Fellow Alex Teachey of the Cool Worlds Lab explains our new paper which devises a method to cloak entire planets from extraterrestrial civilizations! As always, ask us your questions in the comments below and we'll get back to you!",
-        "authors": ["Cool Worlds"]
-    },
-    "other": "http://www.space.com/32377-microbes-give-clues-about-ancient-life.html"
+        "description": "Planet search: Three new planets discovered orbiting around an ultracool dwarf star",
+        "authors": ["TomoNews"]
+    }
 }

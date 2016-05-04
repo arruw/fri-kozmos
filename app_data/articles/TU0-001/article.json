@@ -1,26 +1,24 @@
 {
     "id": "TU0-001",
-    "title": "Hunt for Intelligent Aliens Should Focus on 'Transit Zone'",
-    "description": "The hunt for signs of intelligent aliens should focus on the swath of sky from which it's possible to see Earth pass in front of the sun. Any extraterrestrials living in this region may have already spotted Earth and started sending us messages.",
+    "title": "'Starshot' Interstellar Probes May Hunt for Alien Life Close to Home",
+    "description": "Laser-propelled probes designed to search for signs of life around nearby stars will also likely hunt for aliens on Saturn's moon Enceladus and other objects within Earth's own solar system.",
     "authors": [
         "Mike Wall"
     ],
-    "date": "2016-04-11T12:17:00.000Z",
-    "content": "<p>Scientists searching for signs of intelligent extraterrestrial life should put themselves in the aliens' shoes, a new study suggests.</p><p>Researchers have identified and characterized many potentially habitable alien planets via the \"transit method,\" which notes how parent stars' light changes when orbiting worlds cross these stars' faces from Earth's perspective. (NASA's Kepler space telescope is the most famous and prolific instrument to use this technique.)</p><p>Intelligent aliens could theoretically use this same strategy to discover Earth, and to determine that it has the ability to support life, scientists said.</p>",
+    "date": "2016-04-13T07:07:00.000Z",
+    "content": "<p>The tiny robotic spacecraft that Stephen Hawking and his colleagues plan to send between the stars could also revolutionize the hunt for alien life in Earth's own solar system.</p><p>Today (April 12), Hawking, several other scientists and billionaire investor Yuri Milner announced Breakthrough Starshot, a $100 million initiative to develop the technology required to accelerate postage-stamp-size, sail-equipped \"nanocraft\" to 20 percent the speed of light using powerful ground-based lasers. (Milner is bankrolling the project.)</p><p>The Starshot team hopes flotillas of such miniprobes eventually explore Alpha Centauri and other nearby star systems, studying the planets in those systems up close and searching for signs of life. But the nanocraft will first cut their teeth much closer to home.</p><p>\"As a preliminary step, we will visit targets within the solar system,\" Avi Loeb, who chairs Harvard University's astronomy department and the Breakthrough Starshot advisory committee, said during a news conference today.</p><p>Loeb cited Saturn's moon Enceladus, which harbors an ocean of liquid water beneath its icy shell, as a good target for Starshot probes. Geysers erupt continuously from Enceladus' south polar region, blasting material from the hidden ocean far out into space.</p><p>\"One can imagine flying such a small spacecraft through the plume and detecting molecules that might be indicative of life, fingerprints of life,\" Loeb said.</p><p>Visiting another icy moon that has an underground ocean — the Jovian satellite Europa — would make sense as well, said Breakthrough Starshot advisory committee member Freeman Dyson, a theoretical physicist at the Princeton Institute for Advanced Study in New Jersey.\"Supposing there are fish swimming in [Europa's] ocean, occasionally there will be an asteroid impact or a comet impact splashing huge amounts of water out onto the surface, so there should be lots of freeze-dried fish lying around,\" Dyson said during a phone call with reporters today after the press conference.</p>",
     "images": [
         {
-            "url": "http://www.space.com/images/i/000/053/622/original/red-dwarf-exoplanet-conception.jpg?interpolation=lanczos-none&downsize=*:1400",
-            "description": "Artist's impression of an exoplanet transiting a red-dwarf star.",
+            "url": "http://www.space.com/images/i/000/054/743/original/jupiter-moon-europa.jpg",
+            "description": "Jupiter’s icy, ocean-harboring moon Europa, as seen by NASA’s Galileo spacecraft.",
             "authors": [
-                "ESO/L. Calçada"
+                "NASA/JPL-Caltech/SETI Institute"
             ]
         }
     ],
     "video": {
-        "url": "http://localhost/app_data/videos/vid.mp4",
-        "id": "z1Pqqf_6J9w",
-        "description": "NSF Graduate Fellow Alex Teachey of the Cool Worlds Lab explains our new paper which devises a method to cloak entire planets from extraterrestrial civilizations! As always, ask us your questions in the comments below and we'll get back to you!",
-        "authors": ["Cool Worlds"]
-    },
-    "other": "http://www.space.com/32089-intelligent-alien-life-search-earth-transit-zone.html"
+        "url": "http://localhost/app_data/videos/vid01.mp4",
+        "description": "Stephen Hawking announces $100 million hunt for alien life",
+        "authors": ["Ali Sunoko"]
+    }
 }
