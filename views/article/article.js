@@ -17,6 +17,12 @@ function($scope, $routeParams, $location, getArticle) {
             $scope.showID = 0;
             vid = true;
         }
+        
+        $scope.moreThan1 = true;
+        if(len == 1 || len == 0 && vid === true){
+            $scope.moreThan1 = false;
+        }
+        
 
         $scope.next = function () {
             $scope.showID += 1;

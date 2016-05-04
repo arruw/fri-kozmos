@@ -21,27 +21,11 @@
         <div class="control control-left"><span class="glyphicon glyphicon-chevron-left" ng-click="prev()"></span></div>
         <div class="control control-right"><span class="glyphicon glyphicon-chevron-right" ng-click="next()"></span></div>
         
-        <!--<div class="left" style="float: left; padding-top: 5%; width: 10%;">
-            <div class="container-fluid">
-                <img ng-src="{{left}}" ng-click="prev()" style="width: 100%;"/>
-            </div>
-        </div>
-
-        <div class="right" style="float: right; padding-top: 5%; width: 10%;">
-            <div class="container-fluid">
-                <img ng-src="{{right}}" ng-click="next()" style="width: 100%;"/>
-            </div>
-        </div>-->
-        
-        
-
         <div class="article-video" id="{{article.video.id}}" ng-if="article.video.id == showID">
 
             <div class="container">
 
                 <div class="article-video-frame embed-responsive embed-responsive-16by9">
-                    <!--<iframe class="embed-responsive-item"
-                            src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>-->
                     <video class="video" ng-src="{{article.video.url}}" autoplay controls muted></video>
                 </div>
 
