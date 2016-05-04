@@ -5,6 +5,10 @@ function($scope, $routeParams, $location, getArticle) {
     getArticle($routeParams.articleId).then(function(response) {
         $scope.article = response.data;
 
+        $scope.left = "./views/article/left.png";
+        $scope.right = "./views/article/right.png";
+
+
         var len = $scope.article.images.length;
         $scope.showID = 1;
         var vid = false;
@@ -15,10 +19,8 @@ function($scope, $routeParams, $location, getArticle) {
         }
 
         $scope.next = function () {
-            console.log("next");
             $scope.showID += 1;
             if($scope.showID > len && vid===true){
-                console.log("tuki");
                 $scope.showID = 0;
             }
             else if($scope.showID > len && vid===false){
@@ -27,7 +29,19 @@ function($scope, $routeParams, $location, getArticle) {
             else if($scope.showID == 0){
                 $scope.showID = 1;
             }
-            console.log($scope.showID);
+        };
+
+        $scope.prev = function () {
+            $scope.showID -= 1;
+            if($scope.showID < 0 && vid===true){
+                $scope.showID = len;
+            }
+            else if($scope.showID < 1 && vid===false){
+                $scope.showID = len;
+            }
+            else if($scope.showID == 0){
+                $scope.showID = 1;
+            }
         };
 
     }, function(response) {

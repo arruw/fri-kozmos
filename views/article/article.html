@@ -18,12 +18,29 @@
 
     <div id="media-content">
 
-        <div class="article-video" id="{{article.video.id}}"  ng-if="article.video.id == showID">
+
+        <div class="left" style="float: left; padding-top: 5%; width: 10%;">
+            <div class="container-fluid">
+                <img ng-src="{{left}}" ng-click="prev()" style="width: 100%;"/>
+            </div>
+        </div>
+
+        <div class="right" style="float: right; padding-top: 5%; width: 10%;">
+            <div class="container-fluid">
+                <img ng-src="{{right}}" ng-click="next()" style="width: 100%;"/>
+            </div>
+        </div>
+
+
+        <div class="article-video" id="{{article.video.id}}" ng-if="article.video.id == showID">
+
             <div class="container">
+
                 <div class="article-video-frame embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item"
                             src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>
                 </div>
+
                 <div class="article-video-description text-justify"
                      ng-bind-html="article.video.description | toTrustedHtml"></div>
             </div>
@@ -33,11 +50,12 @@
 
             <div class="container">
                 <img class="article-featured-image-frame img-responsive center-block"
-                     ng-src="{{image.url}}" ng-click="next()"/>
+                     ng-src="{{image.url}}"/>
 
                 <div class="article-featured-image-description text-justify"
                      ng-bind-html="image.description | toTrustedHtml"></div>
             </div>
+
         </div>
 
     </div>
@@ -51,7 +69,6 @@
 
 
 <script>
-
 
 
 </script>
