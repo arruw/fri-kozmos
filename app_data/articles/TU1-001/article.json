@@ -1,24 +1,25 @@
 {
     "id": "TU1-001",
-    "title": "SETI's New Alien Life Hunt Targets 20,000 Small, Dim Stars",
-    "description": "Scientists with the SETI (Search for Extraterrestrial Intelligence) Institute in California have begun a two-year hunt for signs of alien civilizations around 20,000 red dwarfs — stars considerably smaller and dimmer than Earth's sun.",
+    "title": "Night Sky: Visible Planets, Moon Phases & Events, May 2016",
+    "description": "The night sky tonight and on any clear night offers an ever-changing display of fascinating objects you can see, from stars and constellations to bright planets, often the moon, and sometimes special events like meteor showers.",
     "authors": [
-        "Mike Wall"
+        "Geoff Gaherty",
+        "Starry Night Education"
     ],
-    "date": "2016-04-11T12:17:00.000Z",
-    "content": "The search for intelligent aliens has expanded to include thousands of star systems very different from that of Earth.<br/>Scientists with the SETI (Search for Extraterrestrial Intelligence) Institute in Mountain View, California have just begun a two-year hunt for signs of alien civilizations around 20,000 red dwarfs — stars considerably smaller and dimmer than Earth's sun.<br/>Red dwarfs are promising targets for SETI scientists. They are the most common stars in the Milky Way, making up about 75 percent of the galaxy's stellar population. And because red dwarfs burn through their fuel slowly, they live a long time; on average, the Milky Way's red dwarfs are billions of years older than the sun, researchers said.",
+    "date": "May 2, 2016 07:46am ET",
+    "content": "<p>Observing the night sky can be done with no special equipment, although a sky map can be very useful, and a good beginner telescope or binoculars will enhance some experiences and bring some otherwise invisible objects into view. You can also use astronomy accessories to make your observing easier., and use our Satellite Tracker page powered by N2YO.com to find out when to see the International Space Station and other satellites. Below, find out what's up in the night sky tonight (Planets Visible Now, Moon Phases, Observing Highlights This Month) plus other resources (Skywatching Terms, Night Sky Observing Tips and Further Reading).<br/>Monthly skywatching information is provided to Space.com by Geoff Gaherty of Starry Night Education, the leader in space science curriculum solutions. Follow Starry Night on Twitter @StarryNightEdu.<br/><b>Editor's note:</b> If you have an amazing skywatching photo you'd like to share for a possible story or image gallery, please contact managing editor Tariq Malik at spacephotos@space.com.<br/><h2>Moon Phases</h2><h3>Friday, May 6, 3:30 p.m. EDT</h3><h3>New Moon, May 2016</h3>The moon is not visible on the date of New Moon because it is too close to the sun, but can be seen low in the east as a narrow crescent a morning or two before, just before sunrise. It is visible low in the west an evening or two after New Moon.<br/><h3>Friday, May 13, 1:02 p.m. EDT</h3><h3>First Quarter Moon, May 2016</h3>The First Quarter Moon rises around 12:30 p.m. and sets around 2:30 a.m. It dominates the evening sky.<br/><h3>Saturday, May 21, 5:14 p.m. EDT</h3><h3>Full Moon, May 2016</h3>The May Full Moon is known as the Milk Moon, Flower Moon, or Corn Planting Moon. It rises around sunset and sets around sunrise; this is the only night in the month when the moon is in the sky all night long. The rest of the month, the moon spends at least some time in the daytime sky.<br/><h3>Sunday, May 29, 8:12 a.m. EDT</h3><h3>Last Quarter Moon, May 2016</h3>The Last Quarter Moon rises around 1:45 a.m. and sets around 1:15 p.m. It is most easily seen just after sunrise in the southern sky.<br/></p>",
     "images": [
         {
             "id": "1",
-            "url": "http://www.space.com/images/i/000/054/448/original/ata-new-2-560px-image.jpg",
-            "description": "The SETI Institute's Allen Telescope Array in Hat Creek, California is now searching 20,000 red dwarf stars for signs of intelligent life.",
-            "authors": ["Seth Shostak, SETI Institute"]
+            "url": "http://www.space.com/images/i/000/018/585/original/night-sky-watching.jpg?1375385949?interpolation=lanczos-none&downsize=*:1400",
+            "description": "The night sky is more than just the moon and stars, if you know when and where to look.",
+            "authors": ["Karl Tate/SPACE.com"]
         },
         {
             "id": "2",
-            "url": "http://www.space.com/images/i/000/054/335/original/stromatolite-lake-joyce.jpg?interpolation=lanczos-none&downsize=*:1400",
-            "description": "This is a stromatolite with well-developed branches from about 22 meters in Lake Joyce",
-            "authors": []
+            "url": "http://www.space.com/images/i/000/054/866/original/may-2016-first-quarter.jpg?1461014578?interpolation=lanczos-none&downsize=*:1400",
+            "description": "Friday, May 13, 1:02 p.m. EDT. The First Quarter Moon rises around 12:30 p.m. and sets around 2:30 a.m. It dominates the evening sky.",
+            "authors": ["Starry Night Software"]
         }
     ],
     "video": null,
