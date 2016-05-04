@@ -34,7 +34,8 @@ kozmos.factory('getArticles', ['$http', 'appSettings', function($http, appSettin
     return function() {
         return $http({
             method: 'GET',
-            url: appSettings.baseUrl + '/app_data/articles.json?' + new Date().getTime()
+            // url: appSettings.baseUrl + '/app_data/articles.json?' + new Date().getTime()
+            url: appSettings.baseUrl + '/app_data/articles.json'
         });
     };
 }]);
@@ -43,7 +44,8 @@ kozmos.factory('getArticle', ['$http', 'appSettings', function($http, appSetting
     return function(articleId) {
         return $http({
             method: 'GET',
-            url: appSettings.baseUrl + '/app_data/articles/' + articleId + '/article.json?' + new Date().getTime()
+            // url: appSettings.baseUrl + '/app_data/articles/' + articleId + '/article.json?' + new Date().getTime()
+            url: appSettings.baseUrl + '/app_data/articles/' + articleId + '/article.json'
         });
     };
 }]);

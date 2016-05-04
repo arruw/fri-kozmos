@@ -37,8 +37,9 @@
             <div class="container">
 
                 <div class="article-video-frame embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item"
-                            src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>
+                    <!--<iframe class="embed-responsive-item"
+                            src="{{article.video.url | toYouTubeOrigin | toTrustedResourceUrl}}"></iframe>-->
+                    <video class="video" ng-src="{{article.video.url}}" autoplay controls></video>
                 </div>
 
                 <div class="article-video-description text-justify"
