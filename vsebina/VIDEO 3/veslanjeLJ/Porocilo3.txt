@@ -1,0 +1,87 @@
+Video plovbe po Ljubljanici
+Snemanje in oblikovanje video materiala
+Peter Rot
+Fakulteta za računalništvo in informatiko
+pr0703@student.uni-lj.si
+
+Povzetek
+Namen tega projekta je posneti videomaterial, ki se bo uporabil za umetniško instalacijo. Instalacija naj bi bila
+postavljena tako, da bi se lahko usedli v resničen čoln, v rokah bi držali vesla, pred nami pa bi bile projekcije video
+materiala, ki prikazuje, kako se premikamo po vodi (po Ljubljanici). Predvajanje videa mora biti interaktivno, kar
+pomeni, da tisti, ki je v interakciji z instalacijo, narekuje tempo, kako hitro se po Ljubljanici vozimo. K nalogi
+spada tudi priprava snemalne opreme ter razrešitev o tehničnih problemov, ki so tipični za pridobitev ustreznega
+video-materiala.
+
+Uvod
+V uvodu se mi zdi smiselno, da opišem širšo sliko o tem, kako naj bi projekt (umetniška instalacija)
+izgledal v celoti. Zavedati se moramo, da je projekt, o katerem govori ta poster (Video plovbe po Ljubljanici) le podprojekt večjega projekta (Plovba po Ljubljanici, vesolju in mikrosvetu). Koncept je
+morda najlažje opisati s tem, da opišemo, kakšna naj bi bila uporabniška izkušnja tega, ki je v interakciji z našim izdelkom (umetniško instalacijo). Predstavljajmo si, da se v razstavnem prostoru lahko
+vsedemo v star čoln (ki ga bomo dobili v iz muzeja) in primemo za vesla. Pred nami sta dva velika
+platna, na katerih projektorji projecirajo sliko nekega virtualnega sveta. Pri gledalcu (pri tistemu, ki
+interakcira z instalacijo) želimo vzbuditi občutek, da se nahaja v prostoru, ki ga projekcija prikazuje.
+To želimo doseči tako, da bomo z napravo, ki zaznava premikanje vesel (Kinect), izračunali premike
+vesel in ocenili kakšno premikanje po virtualnem svetu je uporabnik želel doseči, potem pa bomo ta
+vhod uporabili za dejanske premike po prostoru, v katerem je bil zajet video. S tem bomo pri uporabniku ustvarili iluzijo, da se resnično premika po različnih 3D prostorih in sicer po Ljubljanici(video),
+po vesolju (izdelan 3D računalniški model) ter po mikrosvetu (slike iz mikroskopa z (po vsej verjetnosti) interpoliranimi vrednostmi, prav tako 3D računalniški model). Za prehod med posameznimi
+svetovi bi se uporabljal poseben signal, na primer da dvignemo vesla v zrak ali kaj podobnega.
+
+tem primeru bomo morali posnetek zelo upočasniti (hitrost plovbe bomo v splošnem regulirali prav
+s tem, da bomo spreminjali hitrost predvajanja, glede na to, kako hitro uporabnik vesla). Poskrbeti
+bomo morali tudi na to, da bo število sličic na sekudno dovolj veliko (vsaj 60 FPS), da bomo lahko
+delali dovolj velike zaustavitve posnetka. Ideja je bila tudi, da bi s posnetkom iz fotoapara, ki snema
+v 4K kvaliteti realizirali zavijanje levo in desno. To bi naredili tako, da bi iz originalnega posnetka
+glede na zavijanje izrezovali manjše odseke - kvaliteto 4K lahko precej odrežemo, in uporabnik ne
+bo opazil spremembe v kvaliteti, saj gre za zadostno število pikslov. Za vsak slučaj bomo snemali z
+večimi napravami, zato da se ne bo potrebno večkrat s plovilom vozit gor in dol po Ljubljanici. Na
+sestanku je bila omenjena tudi ideja o tem, da bi to ”virtualno realnostžajeli s pomočjo 360 stopinjskega zajema videa, ki ga omogoča nova tehnologija za VR in bi si potem uporabnik na glavo dal VR
+očala, vendar se za to nismo odločili, saj instalacija potem ne bi bila več zanimiva za ostale gledalce,
+ki očal ne bi imeli, poleg tega pa se še nihče od članov ekipe ni bolj resno ukvarjal s snemanjem 360
+stopinjskih videov ter postprodukcijo le-teh.
+
+Glavni deli naloge
+1. Pridobitev čolna in vesel ter njihova postavitev
+2. Pridobitev 3D svetov in videa - video je osrednji del te naloge
+3. Priprava kamer, leč, stojal, spominskih medijev ter baterij
+4. Organizacija plovbe, pri čemer je treba biti pozoren na pravilno osvetlitev (vreme, odsevi itd.)
+5. Snemanje - zajem videa
+6. Postprodukcija video materiala
+7. Vključitev videa v širši koncept instalacije - izdelati je treba prehode med svetovi ter narediti, da
+bo instalacija interaktivna
+
+Materiali in metode
+Snemalo se bo z različnimi fotoaparati in kamerami. To so DSLR Canon 60D, ki bo imel fisheye
+lečo, digitalni Canon s 4K resolucijo ter GoPro kamera. Stojala se bodo priredila glede na obliko
+plovila s katerim bomo potovali po Ljubljanici - zavedati se je namreč treba, da je prednji del plovila
+najbrž sam po sebi manj primeren za navadno postavitev stojal, kot smo to navajeni pri običajnem
+(vsakdanjem) snemanju na kopnem. Eno kamero bomo nastavili tudi tako, da bo snemala vodo in
+pokrajino, ki bo na zadnjem delu plovila.
+
+Morebitne tehnične težave
+Zavedati se moramo tega, da lahko zaradi delovanja plovila (motorji) in vode prihaja do različnih
+tresljajev, ki jih želimo med snemanjem minimizirati. V času izdelave tega posterja se še ne ve, kako
+točno bomo kamere montirali, prepričani pa smo, da bodo te stvari močno vplivale na način zajema
+videa. Tehnična težava je tudi v tem, da fish-eye leče ob dele slike, ki so ob robu naredijo zelo oddaljene. Če kamera ne bo dovolj blizu vode, bo video torej izgledal, kot da smo zelo veliko nad vodo
+(npr. 5 metrov), česar si ne želimo, saj je prvotni namen ustvariti iluzijo, da se peljemo v nizkem
+čolnu. Kamere bomo zato poskušali spustiti čim nižje. Za snemanje ni dobro, če je preveč sončen
+dan, zato ker prihaja do odbojev svetlobe in do previsokih kontrastov v sliki. Pri fisheye lečah je
+problem tudi ta, da imamo veliko verjetnost, da se bo v samem kadru pojavilo sonce, kar sigurno
+ne vpliva dobro na kvaliteto videoposnetka ter na senzor, ki je v fotoaparatu. Ideja je bila tudi, da
+bi snemali zadnji del ladje in morda pri instalaciji postavili projekcije tudi zadaj za uporabnikom.
+Pluti bomo morali relativno počasi, saj želimo imeti tudi učinek zaustavitve/zelo počasne plovbe po
+ljubljanici. Predstavljajmo si na primer, da uporabnik začne z vesli močno zavirati in ustaviti čoln. V
+
+Slika 1: Koncept projekta.
+
+Zaključki
+• Video mora ustrezati širšemu konceptu projekta - zavedati se moramo, da je ta projekt le del glavnega projekta
+• Pred snemanjem se moramo zavedati tehničnih težav, ki lahko nastanejo med snemanjem in jih že
+v naprej čim več odpraviti
+• Načrt za samo postavitev kamer je že pripravljen, oprama in plovilo sta na voljo
+• Posnetek mora biti tak, da se bo uporabnik instalacije lahko čimbolj poistovetil z voznikom v pravem čolnu
+
+Zahvale
+Zaenkrat bi se posebno zahvalil Maksu Bernardu, ki bo posodil del opreme za snemanje ter bo pomagal pri snemanju videa in gospodu Tomu Zupančiču, ki bo snemanje omogočil s tem, da nas bo s
+svojim plovilom peljal po Ljubljanici. Seveda bi se zahvalil tudi mentorju prof. dr. Francu Solina in
+slikarju ter podvodnemu arheologu Miranu Eriču za vse ideje in pomoč.
+
+

@@ -1,0 +1,61 @@
+Pospešena evolucija
+Projekt pri predmetu Interaktivnost in oblikovanje informacij
+Veronika Horvat
+Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+vh3591@student.uni-lj.si
+
+Karin Hrovatin & Urška Škerl & Jernej Jurič
+Univerza v Ljubljani, Biotehniška fakulteta
+karin.hrovatin@gmail.com & urska.skerl@gmail.com & jernej.juric@gmail.com
+
+Uvod
+
+Časovni okvir
+
+Projekt na katerem bo delala naša skupina je bolj raziskovalne narave. Razmišljali bomo o tem,
+kako bi se lahko organizmi razvili na drugih planetih glede na snovi, ki se tam nahajajo in lastnosti
+posameznega planeta.
+
+Cilji in rešitve
+Odločili smo se, da bomo naredili enostavno igro v kateri bo lahko uporabnik združil različne gene
+in jih tako povezal v organizem. Da pa bomo igro malce otežili, smo se odločili, da bomo dodali
+možnost izbire planeta na katerem želimo, da se organizem razvije. Če je na nekem planetu ena od
+lastnosti večja gravitacija, bo moral organizem za preživetje imeti močnejše kosti.
+
+24. 3. 2016 smo imeli prvi sestanek skupine s profesorjema, na katerem smo predstavili naše prvotne
+ideje. Po njihovih priporočilih smo se odločili za eno in jo v naslednjih dveh tednih izpopolnili. Tako
+smo se 7.4.2016 ponovno dobili na sestanku, na katerem smo svoj koncept predstavili tudi ostalim
+ekipam. Do 4.5.2016 smo razvijali prototip, ki smo ga do 3.6.2016 izpopolnili in oddali kot končni
+izdelek. Ta bo avgusta prikazan na razstavi.
+
+Sodelujoči
+Sodelujoči:
+• Prof. dr. David Stopar, Biotehniška fakulteta
+
+Proces realizacije
+
+• Prof. dr. Franc Solina, Fakulteta za računalništvo in informatiko
+
+S projektom smo začeli tako, da smo se celotna ekipa sestanili in se odločili kaj točno bomo v
+povezavi s projektom naredili. V nadaljevanju se je potrebno odločiti katere gene bomo v igri uporabili in v kaj se bosta dva razvila, če ju bo uporabnik združil. Ker je te potrebno nekako predstaviti s
+slikami ali liki, moramo v Photoshop-u ali katerem drugem programu pripraviti predstavitev le teh in
+jih kasneje uporabiti v programu. Kot končni izdelek bomo na razstavi predstavili igro, ki jo bo lahko
+uporabnik določen čas igral.
+
+• Karin Hrovatin, Biotehniška fakulteta
+• Urška Škerl, Biotehniška fakulteta
+• Jernej Jurič, Biotehniška fakulteta
+• Veronika Horvat, Fakulteta za računalništvo in informatiko
+
+Tehnologije
+
+References
+
+Za pripravo slik bomo uporabili program Photoshop in jih tako spravili v svg obliko, da bodo kasneje
+lažje uporabljene v igri. Za programiranje igre bomo uporabili JavaScript.
+
+[1] A. Malcolm. Campbell and Laurie J. Heyer. Discovering genomics, proteomics, and bioinformatics. Benjamin Cummings, 2003.
+
+Figure 2: Miselni vzorec z opisom projekta
+
+

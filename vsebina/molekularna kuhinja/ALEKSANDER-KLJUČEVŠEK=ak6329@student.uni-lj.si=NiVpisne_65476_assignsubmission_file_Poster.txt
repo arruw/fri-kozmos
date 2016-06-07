@@ -1,0 +1,77 @@
+Molekularna kuhinja
+Projekt pri predmetu Interaktivnost in oblikovanje informacij
+Aleksander Ključevšek
+Univerza v Ljubljani, Fakulteta za računalništvo in informatiko
+aleksander.kljucevsek@gmail.com
+
+Karina Soklič
+Univerza v Ljubljani, Biotehniška fakulteta
+karina.sokli@gmail.com
+
+Povzetek
+Eden izmed najpomembnejših pogojev za uspešno kolonizacijo novih planetov je uspešna in obstojna preskrba s
+hrano. Za lažji prehod smo raziskali možne metode priprave hrane, ki vključujejo gojenje rastlin v različnih okoljih
+in črpanje osnovnih hranilnih elementov iz lokalno dostopnih virov, 3D pritanje živil in obrokov ter osebne kuharske pomočnike, ki kolonistom stojijo ob strani in jih vodijo z dobronamernimi nasveti. Veliko elementov je na voljo
+že z današnjo tehnologijo, vendar zgolj v relativno osnovni in omejeni kapaciteti. Te tehnologije smo analizirali in
+si zamislili možne napredke v prihodnosti.
+
+Uvod
+Na novo koloniziranih planetih skoraj zagotovo ne bo na voljo rastlin in živali kot jih poznamo na
+Zemlji. Poleg verjetno omejene zaloge hranil prinešenih s seboj, se bo potrebno zanašati predvsem
+na lokalne vire. Pri tem nam bodo v pomoč tudi s seboj prinešena semena, da bomo lahko gojili že
+poznane rastline, ker bosta podrobna analiza in preverjanje užitnosti lokalnih vrst vzeli veliko časa in
+truda. S spoznavanjem lokalnega ekosistema pa bo omogočena tudi sprotna integracija novo odkritih
+hranil v naše prehranjevalne navade. Za enostavno oskrbo s hrano se kot najbolj praktična izkaže
+metoda 3D printanja hrane. S tem je omogočena optimalna priprava z minimalnim zahtevkom truda s
+strani kolonistov. Poleg tega bo napredna umetna inteligenca tudi sposobna poskrbeti, da bodo obroki
+posebej prirejeni za energijske, dietične in zdravstvene potrebe vsakega posameznika posebej.
+
+Glavni cilji
+1. Predstaviti eno od možnosti priprave hrane v prihodnosti na drugih planetih
+2. Raziskati opcije omogočanja preživetja ljudi na novih planetih s stališča prehrane
+3. Uporabnika oz. opazovalca projekta na hitro in splošno izobraziti o osnovah prehrane potrebnih za
+preživetje
+4. Spodbuditi uporabnika oz. opazovalca k razmišljanju o obstojnih in obnovljivih virih hrane
+
+Pripomočki in metode
+Pri izvedbi smo uporabili tehnologije HTML5, CSS3 in JavaScript, grafične elemente pa smo pripravili in oblikovali v programih Photoshop in Illustrator.
+
+Rezultati
+Kot posebej obetavni viri hranil, ki bi jih lahko uporabili za 3D printanje obrokov, so se izkazale
+žitarice, stročnice in rdeče alge. Koruza npr. je bogat vir antioksidantov, beljakovin, vitaminov B, C
+in E, magnezija in cinka. Rdeče alge nudijo veliko kalcija in magnezija.
+Semena gojena v mikrogravitaciji razvijejo bolj porozne prehranske in epidermalne plasti v primerjavi s semeni vzgojenimi na planetu z normalno gravitacijo. Takšna poroznost dovoljuje hranilom
+hitrejšo disperzijo in posledično hitrejšo kalitev in stopnjo rasti.
+Številni hranilni elementi so že danes na voljo v obliki prehranskih dodatkov. Z napredkom tehnologije 3D printanja bi se jih dalo kombinirati v obroke, ki izgledajo in imajo okus kot normalna hrana
+pripravljena na klasičen način.
+
+Slika 2: Na tujih planetih bi obstajali nam povsem neprepoznavni flora in fauna, ki bi se ju dalo vključiti v nove jedi.
+Spodaj: grafični vmesnik za izbiro shranjene jedi, ki bi jo 3D tiskalnik hrane lahko natisnil.
+
+Nadaljne delo
+V prihodnosti se želimo osredotočiti na raziskovanje novih vrst hrane in alternativno gojenje: gojenje
+v LED svetlobi, v ekstremnih okoliščinah kot npr. v breztežnosti, vzgajanje žitaric in stročnic z večjim
+donosom pomembnih hranilnih elementov (lizin, aminokisline) in etičnim ter obstojnim genetskim
+modificiranjem organizmov.
+
+Literatura
+[1] Yong-Yeol Ahn, Sebastian E Ahnert, James P Bagrow, and Albert-László Barabási. Flavor network and the principles of food pairing. Scientific reports, 2011.
+[2] Heston Blumenthal. The Big Fat Duck Cookbook. Bloomsbury USA, 2008.
+[3] Heston Blumenthal. Heston Blumenthal at Home. Bloomsbury Publishing, 1st edition, 2011.
+[4] Nicola Caporaso, Virginia Panariello, and Raffaele Sacchi. The “True” Neapolitan Pizza: Assessing the Influence of Extra Virgin Olive Oil on Pizza Volatile Compounds and Lipid Oxidation.
+Journal of Culinary Science & Technology, 13(1):29–48, jan 2015.
+[5] Harold McGee. On Food and Cooking: The Science and Lore of the Kitchen. Scribner, 2nd
+edition, 2004.
+[6] Michael Moss. Salt Sugar Fat. Random House Trade Paperbacks, 1st edition, 2014.
+[7] Godefridus Van Den Ouweland, Sina Dorothea Escher, François Benzi, and Claude Vanrietvelde.
+Flavoring composition and process, dec 1997.
+[8] Karen Page and Andrew Dornenburg. The Flavor Bible: The Essential Guide to Culinary Creativity, Based on the Wisdom of America’s Most Imaginative Chefs. Little, Brown and Company,
+1st edition, 2008.
+[9] Mark Schatzker. The Dorito Effect. Simon & Schuster, 2nd edition, 2015.
+Slika 1: Miselni vzorec
+
+[10] César Vega, Job Ubbink, and Erik van van der Linden. The Kitchen as Laboratory: Reflections
+on the Science of Food and Cooking (Arts and Traditions of the Table: Perspectives on Culinary
+History). Columbia University Press, 1st edition, 2013.
+
+

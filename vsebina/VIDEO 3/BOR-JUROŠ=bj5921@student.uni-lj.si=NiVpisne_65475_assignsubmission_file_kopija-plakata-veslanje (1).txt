@@ -1,0 +1,80 @@
+Projekt ”Veslanje”
+po različnih svetovih
+Jaka Cikač & Juš Lozej & Peter Rot & Bor Juroš
+Fakulteta za računalništvo in informatiko, Univerza v Ljubljani
+jc1654@student.uni-lj.si & jl3231@student.uni-lj.si & pr0703@student.uni-lj.si
+& bj5921@student.uni-lj.si
+
+Abstract
+S projektom publiki predstavljamo interaktivno navidezno pustolovščino plovbe v drevaku. To bomo
+dosegli s sistemom zaznavanja uporabnikovega veslanja, s katerim se bo lahko le ta pomikal po treh različnih navideznih svetovih. V okviru projekta bomo postavili sistem, ki bo vključeval model drevaka,
+projekcijo plovbe ter zaznavanje veslanja s pospeškometri, ki jih najdemo v vsakodnevnih telefonih in
+preprost uporabniški vmesnik.
+
+Uvod
+Slovenija je bogata z zgodovino tako imenovanih Mostiščarjev oziroma koliščarjev, ki so jo
+naseljevali v času bronaste dobe, kar je približno 2000 let pred našim štetjem. Živeli so na
+področju današnjega Ljubljanskega barja. Za seboj so pustili mnogo sledi, med drugim tudi
+njihova značilna plovila, ki jih sedaj imenujemo drevaki. Gre za lesena plovila, ki so bila izdolbena iz drevesnih debel. S projektom želimo zainteresirani publiki predstaviti navidezno
+plovbo v omenjenem plovilu. To bomo dosegli s pomočjo navidezne resničnosti, saj bomo
+uporabniku omogočili pravo interaktivno pustolovščino! Uporabnik bo imel priložnost sesti
+v model drevaka, nato pa se bo z veslanjem pomikal po navideznem svetu. Da bo vse skupaj še bolj zanimivo bo lahko izbiral kar med tremi navideznimi svetovi - mikrosvet, vesolje
+ter plovba po Ljubljanici.
+
+Video plovbe po Ljubljanici je sneman s širokokotnim (”fisheye”) objektivom. Društvo
+rečnih kapitanov Ljubljana nam je priskrbelo plovilo s katerim smo se premikali po reki.
+Snemanje je potekalo tako, da smo tri naprave (Panasonic Lumix GH4, Canon 60D, GoPro
+4) postavili na prednji del plovila, pri čemer smo se trudili, da perspektiva čim bolj ustreza
+simulaciji veslanja.
+Za razvoj obeh 3D modelov smo prav tako uporabili pogon Unity. Mikro svet temelji na
+simulaciji razvojnega cikla bakterij, katerega lahko uporabnik spremlja, tako da se premika
+med njimi. Bakterije se razvijajo, množijo ter spreminjajo svoje obnašanje glede na razvojno
+stopnjo v kateri so.
+3D Model vesolja pa je razvit kot vizualizacija realinih podatkov o nebesnih telesih. Podatki so bili naknadno še dodatno obdelani ter predstavljeni na način, kjer so bližnji objekti
+povezani v t.i ”gruče”, kar pripomore k boljši uporabniški izkušnji.
+
+Opis postavljenega sistema
+Končen sistem je sestavljen iz računalnika, ki poganja uporabniški vmesnik, zaslona, ki
+prikazuje navidezni svet pred uporabnikom in pametnega telefona, ki s pospeškometron zaznav premikanje uporabnika. Osrednji del je seveda ”drevak”, v katerega bo sedel uporabnik in veslo s katerim se bo s pomočjo premikanja rok pomikal po navideznem svetu.
+
+Cilji projekta
+Rezultati
+
+1. Posneti video plovbe po Ljubljanici
+2. Izdelati način gibanja skozi virtualni svet z veslanjem.
+3. Izdelati detekcijo gibanja rok pri veslanju.
+4. Izdelati 3D model vesolja v pogonu Unity
+5. Izdelati dinamični 3D model Mikro sveta
+6. Integracija sistema detekcije s pogonom Unity.
+
+Aplikacija je enostavna in predvsem nemoteča za uporabnika, ko vesla po izbranem svetu.
+Pospeškomer nudi relativno robusten način zaznavanja gibanja, vendar je obseg akcij katere
+lahko zaznamo z njim relativno majhen. Video plovbe po Ljubljanici je bil uspešno posnet.
+
+Zaključek
+
+Metode
+Za razvoj aplikacije s katero se bo uporabnik lahko navidezno premikal skozi tri različne
+navidezne svetove (vesolje, mikrosvet, plovba po Ljubljanici) smo uporabili pogon Unity3D.
+Aplikacija bo omogočala inicializacijo plovbe, prehod med različnimi navideznimi svetovi
+in gibanje po njih.
+Za zaznavanje veslanja uporablja sistem pospeškometer, ki jih lahko najdemo v sodobnih pametnih telefonih. Aplikacija je sestavljena iz dveh delov, računalniškega strežnika
+odjemalca telefona. Telefon pošlje podatke iz pospeškometra preko wi-fi povezave na
+računalnik. Te dve napravi morata biti v istem lokalnem omrežju, da se lahko uspešno
+povežeta. Dobljene podatke pospeškometra nato račualik na podlagi kotov telefona iterpretira, da oceni za kakšno pomikanje gre. Na podlagi teh nato ustrezno premakne virtualno
+ladjico.
+
+Vesolje in mikro svet so okolja s katerimi običajen človek ponavadi nima direktne interakcije.
+Vidi jih predvsem v znastvenih revijah in na spletu. S projektom želimo te svetove malce
+bolj približati publiki. Sistem omogoča raziskovati nenavadna okolja. Kot kontrast tem nenavadnim svetom se bo uporabnik lahko popeljal po Ljubljanici, kjer bo lahko intuitivno
+spoznal interakcijo s sistemom in nato nadaljeval k bolj abstraktnim svetovom.
+
+Zahvale
+Zahvalili bi se Društvu rečnih kapitanov Ljubljana, gospodu Miranu Eriču ter Maksu
+Bernardu za pomoč pri snemanju videa plovbe po Ljubljanici. Prav tako bi se zahvalili prof.
+Davidu Stoparju ter njegovi ekipi, za pomoč pri izdelavi 3d modela mikro sveta. Posebna
+zahvala gre tudi mentorju prof. Francu Solina.
+
+Figure 1: Pogled z barke.
+
+
