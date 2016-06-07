@@ -5,8 +5,8 @@ function($scope, $routeParams, $location, getArticle) {
     getArticle($routeParams.articleId).then(function(response) {
         $scope.article = response.data;
 
-        $scope.left = "./views/article/left.png";
-        $scope.right = "./views/article/right.png";
+        // $scope.left = "./views/article/left.png";
+        // $scope.right = "./views/article/right.png";
 
 
         var len = $scope.article.images.length;

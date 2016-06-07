@@ -38,6 +38,11 @@
             "authors": []
         }
     ],
-    "video": null
+    "video": {
+        "id": null,
+        "url": null,
+        "description": null,
+        "authors": []
+    },
     "other": ""
 }
