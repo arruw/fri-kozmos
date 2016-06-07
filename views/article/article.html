@@ -1,16 +1,19 @@
 <div id="{{article.id}}" class="article">
 
     <div class="container">
-        <h1 class="article-title">
+        <h3 class="article-title">
             <span ng-bind-html="article.title | toTrustedHtml"></span><br/>
-            <small class="article-description text-justify" ng-bind-html="article.description | toTrustedHtml"></small>
-        </h1>
+            <!--<small class="article-description text-justify" ng-bind-html="article.description | toTrustedHtml"></small>-->
+        </h3>
+        <div class="article-description" ng-bind-html="article.description | toTrustedHtml">
 
+        </div>
         <div class="article-info">
-            Published on <span class="article-date">{{article.date | date }}</span> by
+            <!--Published on <span class="article-date">{{article.date | date }}</span>-->
+            Avtorji:
             <span class="article-authors">
                 <span ng-repeat="author in article.authors">
-                    <span class="article-author">{{author}}</span>{{$last ? '.' : ( ($index == (article.authors.length - 2)) ? ' and ' : ', ' )}}
+                    <span class="article-author">{{author}}</span>{{$last ? '' : ( ($index == (article.authors.length - 2)) ? ' in ' : ', ' )}}
             </span>
             </span>
         </div>
@@ -26,7 +29,7 @@
             <div class="container">
 
                 <div class="article-video-frame embed-responsive embed-responsive-16by9">
-                    <video class="video" ng-src="{{article.video.url}}" autoplay controls muted></video>
+                    <video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>
                 </div>
 
                 <div class="article-video-description text-justify"
@@ -47,6 +50,40 @@
         </div>
 
     </div>
+
+    
+    <!--<div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="container">
+            <ol class="carousel-indicators">
+                <li data-target="#/article/TU1-000#carousel-example-generic" data-slide-to="0" ng-class="{active: article.video.url}" ng-if="article.video.url"></li>
+                <li data-target="#/article/TU1-000#carousel-example-generic" data-slide-to="{{$index + ((article.video.url) ? 1 : 0)}}" ng-class="{active: $index==0 && !article.video.url}" ng-repeat="image in article.images"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item" ng-class="{active: article.video.url}"  ng-if="article.video.url">
+                    <div class="article-video-frame embed-responsive embed-responsive-16by9">
+                        <video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>
+                    </div>
+                    <div class="carousel-caption" ng-bind-html="article.video.description | toTrustedHtml">
+                    </div>
+                </div>
+                <div class="item" ng-class="{active: $index==0 && !article.video.url}" ng-repeat="image in article.images">
+                    <img ng-src="{{image.url}}"/>
+                    <div class="carousel-caption" ng-bind-html="image.description | toTrustedHtml">
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#/article/TU1-000#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#/article/TU1-000#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>-->
 
     <div class="container article-containter">
         <div class="article-content text-justify" ng-bind-html="article.content | toTrustedHtml"></div>
