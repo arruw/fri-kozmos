@@ -5,6 +5,8 @@
             <!--<p class="text-justify visible-md visible-sm">{{article.description}}<p>-->
             <p class="text-justify">{{article.description}}<p>
          </div>
-        <video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>
+        <!--<video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>-->
+        
+        <iframe ng-src="{{article.video.url | toTrustedResourceUrl}}" width="100%" height="400px"></iframe>
     </a>
 </div>
