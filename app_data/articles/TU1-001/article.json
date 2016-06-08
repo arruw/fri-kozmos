@@ -12,13 +12,13 @@
     "images": [
         {
             "id": "1",
-            "url": "",
+            "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-001/slika1.png",
             "description": "Slika 1: Skica nameščenih 'gorivnih celic' na plovilu",
             "authors": ["navedeni zgoraj"]
         },
         {
             "id": "2",
-            "url": "",
+            "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-001/slika2.png",
             "description": "Slika 2: Miselni vzorec z zasnovo projekta evening sky.",
             "authors": ["navedeni zgoraj"]
         }

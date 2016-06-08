@@ -11,25 +11,25 @@
   "images": [
     {
       "id": "1",
-      "url": "",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-002/1.jpg",
       "description": "1",
       "authors": ["navedeni zgoraj"]
     },
     {
       "id": "2",
-      "url": "",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-002/2.jpg",
       "description": "2",
       "authors": ["navedeni zgoraj"]
     },
     {
       "id": "3",
-      "url": "",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-002/3.jpg",
       "description": "3",
       "authors": ["navedeni zgoraj"]
     },
     {
       "id": "3",
-      "url": "",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-002/4.jpg",
       "description": "4",
       "authors": ["navedeni zgoraj"]
     }
