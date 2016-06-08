@@ -1,12 +1,14 @@
 <div id="{{article.id}}" class="article-tile article-tile-zero">
     <a href="#/article/{{article.id}}">
-        <div class="title">
+        <div class="title" style="z-index:1">
             <h3>{{article.title}}</h2>
             <!--<p class="text-justify visible-md visible-sm">{{article.description}}<p>-->
             <p class="text-justify">{{article.description}}<p>
          </div>
-        <!--<video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>-->
-        
-        <iframe ng-src="{{article.video.url | toTrustedResourceUrl}}" width="100%" height="400px"></iframe>
+         
+        <div class="embed-responsive embed-responsive-16by9" style="z-index:0">
+            <!--<video class="video" ng-src="{{article.video.url | toTrustedResourceUrl}}" autoplay controls muted></video>-->
+            <iframe ng-src="{{article.video.url | toTrustedResourceUrl}}" width="100%" height="100%"></iframe>
+        </div>
     </a>
 </div>
