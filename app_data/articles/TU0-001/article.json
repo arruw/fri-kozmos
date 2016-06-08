@@ -1,26 +1,18 @@
 {
     "id": "TU0-001",
-    "title": "Sample Video Project",
-    "description": "Sample Video Project",
+    "title": "Del instalacije Veslanje",
+    "description": "nismo dobili videa",
     "authors": [
         "neznan"
     ],
-    "date": "2016-04-13T07:07:00.000Z",
-    "content": "<p>The tiny robotic spacecraft that Stephen Hawking and his colleagues plan to send between the stars could also revolutionize the hunt for alien life in Earth's own solar system.</p><p>Today (April 12), Hawking, several other scientists and billionaire investor Yuri Milner announced Breakthrough Starshot, a $100 million initiative to develop the technology required to accelerate postage-stamp-size, sail-equipped \"nanocraft\" to 20 percent the speed of light using powerful ground-based lasers. (Milner is bankrolling the project.)</p><p>The Starshot team hopes flotillas of such miniprobes eventually explore Alpha Centauri and other nearby star systems, studying the planets in those systems up close and searching for signs of life. But the nanocraft will first cut their teeth much closer to home.</p><p>\"As a preliminary step, we will visit targets within the solar system,\" Avi Loeb, who chairs Harvard University's astronomy department and the Breakthrough Starshot advisory committee, said during a news conference today.</p><p>Loeb cited Saturn's moon Enceladus, which harbors an ocean of liquid water beneath its icy shell, as a good target for Starshot probes. Geysers erupt continuously from Enceladus' south polar region, blasting material from the hidden ocean far out into space.</p><p>\"One can imagine flying such a small spacecraft through the plume and detecting molecules that might be indicative of life, fingerprints of life,\" Loeb said.</p><p>Visiting another icy moon that has an underground ocean — the Jovian satellite Europa — would make sense as well, said Breakthrough Starshot advisory committee member Freeman Dyson, a theoretical physicist at the Princeton Institute for Advanced Study in New Jersey.\"Supposing there are fish swimming in [Europa's] ocean, occasionally there will be an asteroid impact or a comet impact splashing huge amounts of water out onto the surface, so there should be lots of freeze-dried fish lying around,\" Dyson said during a phone call with reporters today after the press conference.</p>",
+    "date": "2016-05-02T12:30:00.000Z",
+    "content": "<p>Ni vsebine</p>",
     "images": [
-        {
-            "id": "1",
-            "url": "http://www.space.com/images/i/000/054/743/original/jupiter-moon-europa.jpg",
-            "description": "Jupiter’s icy, ocean-harboring moon Europa, as seen by NASA’s Galileo spacecraft.",
-            "authors": [
-                "NASA/JPL-Caltech/SETI Institute"
-            ]
-        }
     ],
     "video": {
-        "url": "https://drive.google.com/a/student.uni-lj.si/file/d/0B3cu3lbzgS8NZlNhTTFYaFl0Y00/preview",
+        "url": "https://drive.google.com/a/student.uni-lj.si/file/d/0B3cu3lbzgS8NZlNhTTFYaFl0Y00/preview", 
         "id": "0",
-        "description": "Stephen Hawking announces $100 million hunt for alien life",
-        "authors": ["Ali Sunoko"]
+        "description": "Video vzet od veslanja po Ljubljanici",
+        "authors": ["TomoNews"]
     }
 }
