@@ -12,13 +12,13 @@
     "images": [
         {
             "id": "1",
-            "url": "http://www.space.com/images/i/000/054/459/original/VLT-Laser-Guide-Star.jpg?interpolation=lanczos-none&downsize=*:1400",
+            "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-000/TOK.JPG",
             "description": "Slika 1: Sklenjen tok elementov, ki ga podpirajo člani kolonije (bakterije). Proizvod ene bakterije je hrana drugi bakteriji, zato je pravilna izbira bakterij življenjskega pomena za celotno kolonijo. Vozlišča na sliki prikazujejo elemente, povezave pa bakterije, ki pretvarjajo elemente v smeri puščice. Vsaka izmed šestih vrst bakterij je obarvana s svojo barvo.",
             "authors": ["navedeni zgoraj"]
         },
         {
             "id": "2",
-            "url": "http://www.space.com/images/i/000/054/335/original/stromatolite-lake-joyce.jpg?interpolation=lanczos-none&downsize=*:1400",
+            "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-000/GUI.JPG",
             "description": "Slika 2: Grafični vmesnik simulacije. 1 - posamezna vrsta bakterij. En krogec predstavlja eno bakterijo. Radij ustreza količini energije, ko jo bakterija še ima. (glej legendo spodaj), 2 - stanje elementov na planetu. En kvadratek predstavlja eno molekulo elementa, 3 - upravljanje s simulacijo, 4 - interaktivna shema reakcij (debelina puščic ustreza številu reakcij, ki so se izvedle ta dan).",
             "authors": ["navedeni zgoraj"]
         }

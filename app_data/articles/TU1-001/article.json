@@ -12,17 +12,17 @@
     "images": [
         {
             "id": "1",
-            "url": "http://www.space.com/images/i/000/018/585/original/night-sky-watching.jpg?1375385949?interpolation=lanczos-none&downsize=*:1400",
-            "description": "The night sky is more than just the moon and stars, if you know when and where to look.",
-            "authors": ["Karl Tate/SPACE.com"]
+            "url": "",
+            "description": "Slika 1: Skica nameščenih 'gorivnih celic' na plovilu",
+            "authors": ["navedeni zgoraj"]
         },
         {
             "id": "2",
-            "url": "http://www.space.com/images/i/000/054/866/original/may-2016-first-quarter.jpg?1461014578?interpolation=lanczos-none&downsize=*:1400",
-            "description": "Friday, May 13, 1:02 p.m. EDT. The First Quarter Moon rises around 12:30 p.m. and sets around 2:30 a.m. It dominates the evening sky.",
-            "authors": ["Starry Night Software"]
+            "url": "",
+            "description": "Slika 2: Miselni vzorec z zasnovo projekta evening sky.",
+            "authors": ["navedeni zgoraj"]
         }
     ],
     "video": null,
-    "other": "http://www.space.com/16149-night-sky.html"
+    "other": ""
 }

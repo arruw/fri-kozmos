@@ -3,17 +3,69 @@
   "title": "Življenje v neznanih okoliščinah",
   "description": "Simuliranje življenjskega cikla mikroorganizmov v vesolju",
   "authors": [
-    "Sarah Lewin"
+    "Bačnik Katarina",
+    "Cigoj Urška",
+    "Lemež Špela",
+    "Pinteric Bor",
+    "Sedevcic Kevin"
   ],
   "date": "2016-06-07T23:59:59.000Z",
   "content": "<h2>Povzetek</h2> <p>V posterju opisujemo pojem vizualizacije informacij in znanstvenega prikazovanja informacij s pomočjo računalnika. V nadaljevanju bosta definirana prejšnja dva pojma, predstavili bomo grafični pogon Unity, s katerim bomo realizirali vizualizacijo naše ideje in obrazložena bo končna ideja implementiranega projekta. Ta bo simulacija življenja mikroorganizmov na planetih našega sončnega sistema, kjer bodo pri vsakem planetu izpostavljene glavne karakteristike okolja. Ob tem pa bomo z vizualnimi informacijami miselnega vzorca prikazali namen projekta.</p> <h2>Uvod</h2> <p>Kaj pomenita pojma vizualizacija informacij in znanstveno prikazovanje informacij? Prvi je študija (interaktivnih) vizualnih reprezentacij abstraktnih podatkov za krepitev človeškega spoznavanja in razumevanja. Abstraktni podatki vključujejo tako numerične in ne-numerične podatke, kot so besedilo in geografski podatki. Tipičen primer takih podatkov lahko opazimo v spodnji sliki. Znanstveno prikazovanje (ali vizualizacija) je interdisciplinarna veja znanosti, ki ”se v prvi vrsti ukvarja s tridimenzionalnimi pojavi”, kot: arhitekturni, meteorološki, medicinski, biološki pojavi itd. Poudarek se opaža na realnih razmerah, količinah, zakonih, pravilih in večkrat tudi pri spremembi časa. Prav tako se šteje veja računalništva, ki je razvejana na računalniško grafiko. Namen znanstvene vizualizacije je grafična ponazoritev znanstvenih podatkov, da bi znanstvenikom opisala in ponazorila podatke s katerimi bi lahko le-ti upravljali in kaj novega izvedli. Vendar se vizualizacija informacij razlikuje od znanstvene vizualizacije. Ko govorimo o prvi, je prostorska predstavitev lahko izbrana, medtem, ko je pri drugi prostorski predstavitviji že definirana. Na spodnji sliki jo lahko opazimo. V naslednjih poglavjih bomo obrazložili tehnologijo Unity, grafični pogon s katerim lahko vizualiziramo različne podatke in kako bomo tega uporabljali za realizacijo našega projekta.</p> <h2>Grafični pogon - Unity</h2> <p>Ko govorimo o vizualizaciji podatkov, redko kdaj si predstavljamo objekte v dveh dimenzijah. Zato ni boljšega načina, da si to predstavljamo računalniško, da lahko nekaj obračamo, spreminjamo ali premikamo. Tako za dvo, kot tri- dimenzijske slike (oz. vizualizacije) lahko enostavno kreiramo in upravljamo podatke in objekte preko tehnologije Unity. Glavni programski jezik v tem ogrodju je C, C++ ali C#, kar je za fleksibilnost in hitrost prava izbira. V zadnjih desetih letih se je zelo razširil in lastniki so mnenja, da bo vedno ostal zastojn, kar je še dodatna prednost. Unity je grafični pogon, ki podpira vse najbolj razširjene platforme. Uporabljen v večini pri razvoju računalniških iger, iger za konzole, mobilne aplikacije in spletne strani. Zadnja leta razvijalci poskušajo podprt še virtualno realnost, o kateri se zadnje čase vedno bolj govori. Zelo razvito ogrodje omogoča hiter in enostaven razvoj aplikacij. Zato, ga bomo tudi mi uporabljali v našem projektu.</p> <h2>Simulacija v vesolju</h2> <p>V sledečem poglavju bomo obrazložili glavno idejo projekta. Ideja izvira iz problematike planeta Zemlje. Že dolgo slišimo medije, ki nas opozarjajo na ozonske luknje, na dviganje povprečne temperature, taljenje ledu na polih, problem onesnaževanja, prenaseljenosti, krčenje gozdov in mnogo drugih. Zato se govori o zbiranju odpadkov, o učinkovitih metodah varčevanja itd. Velika podjetja pa izkoriščajo to priložnost in raziskujejo globine vesolja... Ideja je, da bi v vesolje poslali mikroorganizme z zalogo hranil ali take, ki bi hranila dobivali iz plinov v atmosferi. Poznamo mikroorganizme, ki se lahko hranijo z odpadno plastiko, ali tiste, ki lahko preživijo v okolju popolnega ogljika. Iz ene strani, bi lahko tudi odpadke pošiljali stran iz Zemlje in pri temu pomagali organizmom pri preživetju v neznanem okolju. Kako naj bi se ti organizmi lahko hranili z odpadnimi snovmi? Kaj pa, ko jih ne bo več na razpolago? Ali kaj če pridejo v stik z zunanjostjo na katero niso odporni?</p> <h2>Izdelava projekta</h2> <p>Gremo globlje obrazložit projekt. Na kratko bomo obrazložili karakteristike 8ih planetov našega sončnega sistema in opisali izdelavo projekta vsakega planeta:</p> <ul> <li>Merkur, planet ima zelo tanko atmosfero, zato je izpostavljen sončnim valom in posledično tudi radiacijam. Čeprav je najbližji planet Soncu, nima najvišje temperature. Te se gibljejo med -160 ◦C na senčni strani in +400◦ C na toplejši strani. A ker se na svoji osi obrača zelo počasi, lahko organizmi pristanejo na strani, kjer je interval temperature ugodnejši, glej sliko 4 prva levo.</li><li>Venera, drugi planet v osončju, najtoplejši (povprečna temperatura površine okrog 460◦ C čez noč in dan), glej sliko 4 druga iz leve.</li><li>Naša veličastna Zemlja, tretji in najboljše poznan planet, ki skriva še neznano količino skrivnosti. Na katerem organizmi prebivajo v veliki količini in brez velikih težav zaradi dobro vzpostavljene atmosfere in pogojev življenja (sliko 4 tretja iz leve).</li><li>Mars, zaenkrat planet pod pozornostjo medijev in astronautskih zvez, na katerega se astronauti v naslednjih letih pripravljajo na kolonizacijo. Atmosfera je tu najbolj podobna Zemeljski, s temperaturo ki se giblje od -70 ◦ C do + 20 ◦ C, en izmed večjih problemov zgleda, da je prevelika vsebovanost ogljika v atmosferi, katera bi onemogočila bivanje. Kaj pa če bi lahko pri kolonizaciji uporabili rastline oz mikroorganizme, ki uporabljajo prav Ogljik kot hranilo in bi pri tem uravnavale vsebovanost plinov v atmosferi in na površju tako, da bi postale ugodne za bivanje? (glej zadnjo sliko desno na sliki 4 )</li><li>Še zadnji štirje planeti rotirajo v osončju za Marsom. Vseh štiri združujejo enake karakteristike. Plinski velikani, se obračajo hitreje od ostalih planetov, nimajo trde podlage, karakterizirani so s supersoničnimi vetrovi in nizkimi temperaturami (do - 220 ◦ C )in njihova sestava je večinoma iz Vodika in Helija (primere lahko vidimo v sliki5 ).</li></ul> <h2>Zaključek in zahvale</h2> <p>Kot zaključek, želim izpostaviti ideje, iz katerih smo bili motivirani o izdelavi projekta:</p> <ul> <li>Uporaba mikroorganizmov za razgradnjo odpadkov je nova pot za čistejši planet,</li><li>Poznamo rastline, ki uporabljajo ogljikov dioksid, kot živilo in lahko te uporabimo na planetih pri pridobivanju zraka,</li><li>Mutacijo poznamo kot škodljivo, pri primitivnih organizmih pa je pomoč pri prilagodljivosti,</li></ul> <p>Obstoj planeta Zemlja ne bo večni. Vesolje pa skriva neskončno možnosti, treba jih le odkriti.</p> <h2>Zahvale</h2> <p>Zahvaljujem se skupini biologov in mikrobiologov iz biotehniške fakultete Univerze v Ljubljani, ki so z njihovim znanjem, dobro voljo in samoiniciativnostjo dosegli dober timski motivacijski nivo in skupaj izdelali idejo o zgornjem projektu.</p>",
   "images": [
     {
       "id": "1",
-      "url": "http://www.space.com/images/i/000/054/459/original/VLT-Laser-Guide-Star.jpg?interpolation=lanczos-none&downsize=*:1400",
-      "description": "A new paper describes how laser beams could disrupt measurements of Earth's orbit around the sun, potentially deceiving inquisitive aliens. Here, a 22W laser used for adaptive optics shines from the Very Large Telescope in Chile.",
-      "authors": ["ESO/G. Hüdepohl"]
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Earth.png",
+      "description": "Prikaz Zemlje v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "2",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Jupiter.png",
+      "description": "Prikaz Jupitra v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "3",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Mars.jpg",
+      "description": "Prikaz Marsa v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "4",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Mercury.png",
+      "description": "Prikaz Merkurja v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "5",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Neptune.png",
+      "description": "Prikaz Neptuna v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "6",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Saturn.png",
+      "description": "Prikaz Saturna v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "7",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Uranus.png",
+      "description": "Prikaz Urana v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "8",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Venus.png",
+      "description": "Prikaz Venere v Unityju",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "9",
+      "url": "http://matjazmav.github.io/Kozmos/app_data/articles/TU1-004/Kozmos2016.png",
+      "description": "Miselni vzorec projekta",
+      "authors": ["navedeni zgoraj"]
     }
   ],
-  "other": "http://www.space.com/32423-laser-cloak-could-hide-earth-from-aliens.html"
+  "other": ""
 }

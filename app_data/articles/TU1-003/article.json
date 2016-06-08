@@ -3,23 +3,26 @@
   "title": "Pospešena evolucija",
   "description": "Projekt pri predmetu Interaktivnost in oblikovanje informacij",
   "authors": [
-    "Elizabeth Howell"
+    "Veronika Horvat",
+    "Karin Hrovatin",
+    "Urška Škerl",
+    "Jernej Jurič"
   ],
   "date": "2016-06-07T23:59:59.000Z",
   "content": "<h2>Uvod</h2><p>Projekt na katerem bo delala naša skupina je bolj raziskovalne narave. Razmišljali bomo o tem, kako bi se lahko organizmi razvili na drugih planetih glede na snovi, ki se tam nahajajo in lastnosti posameznega planeta.</p><h2>Cilji in rešitve</h2><p>Odločili smo se, da bomo naredili enostavno igro v kateri bo lahko uporabnik združil različne gene in jih tako povezal v organizem. Da pa bomo igro malce otežili, smo se odločili, da bomo dodali možnost izbire planeta na katerem želimo, da se organizem razvije. Če je na nekem planetu ena od lastnosti večja gravitacija, bo moral organizem za preživetje imeti močnejše kosti.</p><h2>Proces realizacije</h2><p>S projektom smo začeli tako, da smo se celotna ekipa sestanili in se odločili kaj točno bomo v povezavi s projektom naredili. V nadaljevanju se je potrebno odločiti katere gene bomo v igri uporabili in v kaj se bosta dva razvila, če ju bo uporabnik združil. Ker je te potrebno nekako predstaviti s slikami ali liki, moramo v Photoshop-u ali katerem drugem programu pripraviti predstavitev le teh in jih kasneje uporabiti v programu. Kot končni izdelek bomo na razstavi predstavili igro, ki jo bo lahko uporabnik določen čas igral.</p><h2>Tehnologije</h2><p>Za pripravo slik bomo uporabili program Photoshop in jih tako spravili v svg obliko, da bodo kasneje lažje uporabljene v igri. Za programiranje igre bomo uporabili JavaScript.</p><h2>Časovni okvir</h2><p>24. 3. 2016 smo imeli prvi sestanek skupine s profesorjema, na katerem smo predstavili naše prvotne ideje. Po njihovih priporočilih smo se odločili za eno in jo v naslednjih dveh tednih izpopolnili. Tako smo se 7.4.2016 ponovno dobili na sestanku, na katerem smo svoj koncept predstavili tudi ostalim ekipam. Do 4.5.2016 smo razvijali prototip, ki smo ga do 3.6.2016 izpopolnili in oddali kot končni izdelek. Ta bo avgusta prikazan na razstavi.</p><h2>Sodelujoči</h2><ul><li>Prof. dr. David Stopar, Biotehniška fakulteta</li><li>Prof. dr. Franc Solina, Fakulteta za računalništvo in informatiko</li><li>Karin Hrovatin, Biotehniška fakulteta</li><li>Urška Škerl, Biotehniška fakulteta</li><li>Jernej Jurič, Biotehniška fakulteta</li><li>Veronika Horvat, Fakulteta za računalništvo in informatiko</li></ul><h2>References</h2><p>[1] A. Malcolm. Campbell and Laurie J. Heyer. Discovering genomics, proteomics, and bioinformatics. Benjamin Cummings, 2003.</p>",
   "images": [
     {
       "id": "1",
-      "url": "http://www.space.com/images/i/000/017/760/original/warp-drive.jpg?interpolation=lanczos-none&downsize=*:1400",
-      "description": "",
-      "authors": ["Star Trek"]
+      "url": "",
+      "description": "1",
+      "authors": ["navedeni zgoraj"]
     },
     {
       "id": "2",
-      "url": "http://www.space.com/images/i/000/047/415/original/star-wars-jump-light-speed-hyperspace.jpg?1430771049?interpolation=lanczos-none&downsize=*:1400",
-      "description": "",
-      "authors": ["Star Wars"]
+      "url": "",
+      "description": "2",
+      "authors": ["navedeni zgoraj"]
     }
   ],
-  "other": "http://www.space.com/32423-laser-cloak-could-hide-earth-from-aliens.html"
+  "other": ""
 }

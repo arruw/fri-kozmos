@@ -11,22 +11,28 @@
   "images": [
     {
       "id": "1",
-      "url": "http://www.space.com/images/i/000/055/153/original/kids-space-tent.jpg?1461961006?interpolation=lanczos-none&downsize=*:1400",
-      "description": "Spend some time indoors or out in a tent that resembles a spaceport.",
-      "authors": ["Pacific Play Tents"]
+      "url": "",
+      "description": "1",
+      "authors": ["navedeni zgoraj"]
     },
     {
       "id": "2",
-      "url": "http://www.space.com/images/i/000/051/182/original/remote-control-machines-space-explorers.jpg?1446141676?interpolation=lanczos-none&downsize=*:1400",
-      "description": "Learn about robots in space and build your own remote-control machines with this science kit.",
-      "authors": ["Thames & Kosmos"]
+      "url": "",
+      "description": "2",
+      "authors": ["navedeni zgoraj"]
     },
     {
       "id": "3",
-      "url": "http://www.space.com/images/i/000/055/154/original/rc-snap-rover.jpg?1461962209?interpolation=lanczos-none&downsize=*:1400",
-      "description": "Send a rover zooming across your own Martian landscape with a remote controlled rover you wire on your own.",
-      "authors": ["Snap Circuits"]
+      "url": "",
+      "description": "3",
+      "authors": ["navedeni zgoraj"]
+    },
+    {
+      "id": "3",
+      "url": "",
+      "description": "4",
+      "authors": ["navedeni zgoraj"]
     }
   ],
-  "other": "http://www.space.com/27797-kids-gifts.html"
+  "other": ""
 }
