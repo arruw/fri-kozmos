@@ -1,7 +1,7 @@
 {
     "id": "TU0-000",
-    "title": "These 3 Alien Planets Around a Tiny, Cold Star Just Might Support Life",
-    "description": "Three potentially habitable Earth-size planets have been discovered orbiting a dim, cold nearby star that is barely larger than Jupiter, researchers say.",
+    "title": "Sample Video Project",
+    "description": "Sample Video Project",
     "authors": [
         "Charles Q. Choi"
     ],
@@ -22,7 +22,7 @@
         }
     ],
     "video": {
-        "url": "http://matjazmav.github.io/Kozmos/app_data/videos/vid00.mp4", 
+        "url": "https://drive.google.com/a/student.uni-lj.si/file/d/0B3cu3lbzgS8NZlNhTTFYaFl0Y00/preview", 
         "id": "0",
         "description": "Planet search: Three new planets discovered orbiting around an ultracool dwarf star",
         "authors": ["TomoNews"]

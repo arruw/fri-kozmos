@@ -1,7 +1,7 @@
 {
     "id": "TU0-001",
-    "title": "'Starshot' Interstellar Probes May Hunt for Alien Life Close to Home",
-    "description": "Laser-propelled probes designed to search for signs of life around nearby stars will also likely hunt for aliens on Saturn's moon Enceladus and other objects within Earth's own solar system.",
+    "title": "Sample Video Project",
+    "description": "Sample Video Project",
     "authors": [
         "Mike Wall"
     ],
@@ -18,7 +18,7 @@
         }
     ],
     "video": {
-        "url": "http://matjazmav.github.io/Kozmos/app_data/videos/vid01.mp4",
+        "url": "https://drive.google.com/a/student.uni-lj.si/file/d/0B3cu3lbzgS8NZlNhTTFYaFl0Y00/preview",
         "id": "0",
         "description": "Stephen Hawking announces $100 million hunt for alien life",
         "authors": ["Ali Sunoko"]
